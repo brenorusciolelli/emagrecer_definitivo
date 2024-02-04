@@ -140,6 +140,10 @@ body {
     height: 600px;
    }
 
+   .garantia_compra {
+    height: 1000px;
+   }
+
    #div_texto {
     padding-top: 60px;
     text-align: center;
