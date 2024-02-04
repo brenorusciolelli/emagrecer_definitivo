@@ -38,7 +38,7 @@ body {
     text-align: center;
    }
 
-   #botao_comprar {
+   #botao_comprar_laranja {
     font-family: "Anton", Sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -53,12 +53,34 @@ body {
     padding: 25px 0px 25px 0px;
    }
 
+   #botao_comprar_amarelo {
+    font-family: "Anton", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FDDE01 0%, #FDDE01 100%);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #FDDE01;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px 0px 25px 0px;
+    text-align: -webkit-center;
+   }
+
    a {
     text-decoration: none;
    }
 
-   .texto_comprar {
+   .texto_comprar_branco {
     color: #fff;
+   }
+
+   .texto_comprar_preto {
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
    }
 
    #imagem_compra_segura {
@@ -79,6 +101,17 @@ body {
 
    .prova_social {
     background-image: url("https://secarcomsaude.online/wp-content/uploads/2023/06/bg02252-scaled.webp");
+    width: 430px;
+   }
+
+   #div_beneficios {
+    background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/06/bg-mobile-03-2-3-scaled.webp');
+    height: 800px;
+   }
+
+   #div_cha {
+    background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/05/bg08-8.webp');
+    height: 800px;
    }
 
    #div_texto {
@@ -99,6 +132,54 @@ body {
     align-items: center;
     height: 15vh;
     font-size: 25px;
+    padding-bottom: 10px;
+   }
+
+   #div_text_cha {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 15px;
+    padding-bottom: 10px;
+   }
+
+   #div_text_beneficios {
+    text-align: center;
+    width: 420px;
+    padding: 10px 0 0 10px;
+   }
+   .span_check {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+   }
+
+   .check {
+    color: #FDDE01;
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 40px;
+    padding-bottom: 20px;
+   }
+
+   .strong_texto_preto {
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   .span_texto_cinza {
+    color: #8E8E8E;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   #div_text_cha_span_strong {
+    text-align: center;
+    height: 15vh;
+    font-size: 16px;
+    padding-bottom: 10px;
    }
 
 }
