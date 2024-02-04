@@ -16,16 +16,19 @@ body {
    .font_verde{
     color: #5A9B32;
     font-weight: 900;
+    font-size: 15px !important
    }
 
    .font_branca{
     color: #fff;
     font-weight: 900;
+    font-size: 25px !important;
    }
 
    .font_amarela{
     color: #FDDE01;
     font-weight: 900;
+    font-size: 25px !important;
    }
 
    .font_laranja{
@@ -40,7 +43,7 @@ body {
 
    #botao_comprar_laranja {
     font-family: "Anton", Sans-serif;
-    font-size: 24px;
+    font-size: 24px !important;
     font-weight: 300;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     background-color: transparent;
@@ -55,7 +58,7 @@ body {
 
    #botao_comprar_amarelo {
     font-family: "Anton", Sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 300;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     background-color: transparent;
@@ -67,6 +70,23 @@ body {
     box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
     padding: 25px 0px 25px 0px;
     text-align: -webkit-center;
+   }
+
+   #botao_comprar_cha{
+    padding-top: 20px;
+    font-family: "Roboto", Sans-serif;
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #F58C12 0%, #F58C12 100%);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #F58C12;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px 0px 25px 0px;
    }
 
    a {
@@ -101,17 +121,23 @@ body {
 
    .prova_social {
     background-image: url("https://secarcomsaude.online/wp-content/uploads/2023/06/bg02252-scaled.webp");
-    width: 430px;
+    max-width: 430px;
+   }
+
+   .prova_social_02 {
+    background-image: url("https://secarcomsaude.online/wp-content/uploads/2023/05/bg06.jpg");
+    max-width: 430px;
+    height: 1850px;
    }
 
    #div_beneficios {
     background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/06/bg-mobile-03-2-3-scaled.webp');
-    height: 800px;
+    height: 700px;
    }
 
    #div_cha {
     background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/05/bg08-8.webp');
-    height: 800px;
+    height: 600px;
    }
 
    #div_texto {
@@ -126,12 +152,18 @@ body {
     height: 50vh;
    }
 
+   .div_testemunho_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
    #div_text {
     display: flex;
     text-align: center;
     align-items: center;
     height: 15vh;
-    font-size: 25px;
+    font-size: 25px !important;
     padding-bottom: 10px;
    }
 
@@ -140,8 +172,9 @@ body {
     text-align: center;
     align-items: center;
     height: 15vh;
-    font-size: 15px;
-    padding-bottom: 10px;
+    font-size: 15px !important;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
    }
 
    #div_text_beneficios {
@@ -151,7 +184,7 @@ body {
    }
    .span_check {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
     color: #fff;
    }
 
@@ -159,7 +192,7 @@ body {
     color: #FDDE01;
     font-weight: 900;
     padding-left: 10px;
-    font-size: 40px;
+    font-size: 38px !important;
     padding-bottom: 20px;
    }
 
@@ -178,8 +211,42 @@ body {
    #div_text_cha_span_strong {
     text-align: center;
     height: 15vh;
-    font-size: 16px;
+    font-size: 16px !important;
     padding-bottom: 10px;
    }
+
+   #imagem_testemunho_2 {
+    max-width: 80%;
+    max-height: 80%;
+    padding-top: 30px;
+   }
+
+   /*
+   carrousel css
+   */
+
+   #carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Ajuste conforme necessário */
+  }
+
+  #carousel figure {
+    margin: 0;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #carousel img {
+    width: 100%;
+  }
+
+  #prev, #next {
+    cursor: pointer;
+  }
+
+  #div_prova_social{
+    padding-top: 30px;
+  }
 
 }
