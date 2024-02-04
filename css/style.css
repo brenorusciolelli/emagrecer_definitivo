@@ -141,7 +141,10 @@ body {
    }
 
    .garantia_compra {
-    height: 1000px;
+    height: 750px;
+   }
+   .valor_produto {
+    height: 550px;
    }
 
    #div_texto {
