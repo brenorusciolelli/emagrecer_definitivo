@@ -132,7 +132,7 @@ body {
 
    #div_beneficios {
     background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/06/bg-mobile-03-2-3-scaled.webp');
-    height: 700px;
+    max-height: 800px;
    }
 
    #div_cha {
