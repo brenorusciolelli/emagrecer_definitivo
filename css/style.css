@@ -6,9 +6,30 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+#carouselExampleControls {
+  max-width: 100%;
+  display: flex;
+justify-content: center;
+}
+
+.carousel-inner {
+  width: 1000px !important;
+}
+
+.carousel-control-prev {
+  width: 1000px !important;
+  height: 20px !important;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+}
+
 #div_imagem_logo {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px !important;
 }
 
 .font_verde{
@@ -65,13 +86,15 @@ body {
   border-radius: 50px 50px 50px 50px;
   box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
   padding: 25px 0px 25px 0px;
-  width: 430px !important;
+  width: 600px !important;
  }
 
  #div_botao {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
  }
 
  .texto_comprar_branco {
@@ -98,18 +121,171 @@ body {
   text-align: center;
  }
 
+#div_check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+} 
+
  .div_testemunho {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 132vh;
+  height: 80vh;
  }
+
+ #div_text {
+  text-align: center;
+  align-items: center;
+  height: 15vh;
+  font-size: 25px !important;
+  padding-bottom: 10px;
+ }
+
+ #div_beneficios {
+  background-image: url('https://secarcomsaude.online/wp-content/uploads/2023/06/bg-mobile-03-2-3-scaled.webp');
+  max-height: 900px;
+  max-width: 100% !important;
+ }
+
+ #texto_branco_web {
+  font-size: 25px;
+ }
+
+ #div_text_beneficios {
+  text-align: center;
+  max-width: 100%;
+  padding: 10px 0 0 10px;
+ }
+
+ .span_check {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  color: #fff;
+ }
+
+ .check {
+  color: #FDDE01;
+  font-weight: 900;
+  padding-left: 10px;
+  font-size: 38px !important;
+  padding-bottom: 20px;
+ }
+
+ #botao_comprar_amarelo {
+  font-family: "Anton", Sans-serif;
+  font-size: 18px !important;
+  font-weight: 300;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #FDDE01 0%, #FDDE01 100%);
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #FDDE01;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 0px 25px 0px;
+  text-align: -webkit-center;
+  width: 600px;
+ }
+
+ .texto_comprar_preto {
+  color: #000000;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+ }
+
+ #botao_comprar_cha{
+  padding-top: 20px;
+  font-family: "Roboto", Sans-serif;
+  text-align: center;
+  font-size: 25px !important;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #F58C12 0%, #F58C12 100%);
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #F58C12;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 0px 25px 0px;
+  width: 600px;
+ }
+
+ #botao_comprar_final{
+  padding-top: 20px;
+  font-family: "Roboto", Sans-serif;
+  text-align: center;
+  font-size: 15px !important;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #F58C12 0%, #F58C12 100%);
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #F58C12;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 0px 25px 0px;
+  width: 600px !important;
+ }
+
+ #div_text_cha {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  font-size: 15px !important;
+  padding-bottom: 15px;
+  padding-bottom: 15px;
+ }
+
+ .div_testemunho_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+ }
+
+ #carousel {
+  display: flex;
+  overflow: hidden;
+  width: 300px; /* Ajuste conforme necessário */
+}
+
+#carousel figure {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+#carousel img {
+  width: 100%;
+}
+
+#prev, #next {
+  cursor: pointer;
+}
+
+#div_prova_social{
+  padding-top: 30px;
+}
+
+.garantia_compra {
+  height: 750px;
+ }
+
 
 @media only screen and (max-width: 600px) {
 
    #div_imagem_logo{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px !important;
    }
 
    .font_verde{
@@ -192,6 +368,24 @@ body {
     padding: 25px 0px 25px 0px;
    }
 
+   #botao_comprar_final{
+    padding-top: 20px;
+    font-family: "Roboto", Sans-serif;
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #F58C12 0%, #F58C12 100%);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #F58C12;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px 0px 25px 0px;
+    width: 400px !important;
+   }
+
    a {
     text-decoration: none;
    }
@@ -204,6 +398,7 @@ body {
     color: #000000;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
    }
 
    #imagem_compra_segura {
@@ -230,7 +425,7 @@ body {
    .prova_social_02 {
     background-image: url("https://secarcomsaude.online/wp-content/uploads/2023/05/bg06.jpg");
     max-width: 430px;
-    height: 1850px;
+    height: 1300px;
    }
 
    #div_beneficios {
